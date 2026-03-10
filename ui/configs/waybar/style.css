@@ -1,0 +1,97 @@
+/* C OS Waybar Theme */
+@import url('file:///usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Regular.ttf');
+
+* {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(14, 14, 18, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  color: #e8e8ec;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  padding: 0 6px;
+}
+
+#custom-logo {
+  color: #7c6af7;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 0 12px;
+  background: rgba(124, 106, 247, 0.12);
+  border-radius: 10px;
+  margin: 4px 4px;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  color: #666680;
+  border-radius: 8px;
+  margin: 4px 2px;
+  transition: all 0.2s;
+}
+
+#workspaces button.focused {
+  background: rgba(124, 106, 247, 0.2);
+  color: #7c6af7;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #e8e8ec;
+}
+
+#clock {
+  color: #e8e8ec;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio,
+#tray,
+#custom-power {
+  padding: 2px 10px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #a0a0c0;
+  transition: all 0.2s;
+}
+
+#cpu:hover,
+#memory:hover,
+#battery:hover,
+#network:hover,
+#pulseaudio:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #e8e8ec;
+}
+
+#battery.warning { color: #f7c94f; }
+#battery.critical { color: #f76a6a; }
+#battery.charging { color: #4fdc8f; }
+
+#network.disconnected { color: #f76a6a; }
+
+#custom-power {
+  color: #f76a8a;
+  font-size: 14px;
+  padding: 2px 12px;
+}
+
+#custom-power:hover {
+  background: rgba(247, 106, 138, 0.2);
+}

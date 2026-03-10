@@ -1,0 +1,22 @@
+# C OS Notifications
+font=JetBrains Mono 11
+background-color=#1a1a22ee
+text-color=#e8e8ec
+border-color=#7c6af7
+border-radius=14
+border-size=1
+width=360
+height=120
+margin=12
+padding=16
+icons=1
+icon-path=/usr/share/icons/Papirus-Dark
+max-icon-size=48
+default-timeout=5000
+ignore-timeout=0
+layer=overlay
+anchor=top-right
+
+[urgency=high]
+border-color=#f76a8a
+default-timeout=0

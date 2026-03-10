@@ -1,0 +1,28 @@
+/* C OS Power Menu */
+window {
+  background: rgba(11, 11, 15, 0.92);
+  font-family: "JetBrains Mono", monospace;
+}
+
+button {
+  background: rgba(28, 28, 36, 0.8);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  color: #a0a0c0;
+  font-size: 14px;
+  margin: 8px;
+  padding: 40px 60px;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: rgba(124, 106, 247, 0.2);
+  border-color: #7c6af7;
+  color: #e8e8ec;
+}
+
+#lock     { border-color: rgba(124,106,247,0.3); }
+#logout   { border-color: rgba(79,220,143,0.3); }
+#suspend  { border-color: rgba(247,201,79,0.3); }
+#reboot   { border-color: rgba(247,106,79,0.3); }
+#shutdown { border-color: rgba(247,106,138,0.3); }

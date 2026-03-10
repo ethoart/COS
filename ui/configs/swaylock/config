@@ -1,0 +1,38 @@
+# C OS Lock Screen
+image=~/cos-build/ui/wallpapers/cos-wallpaper.png
+scaling=fill
+color=0b0b0fee
+font=JetBrains Mono
+
+# Ring
+ring-color=7c6af7
+ring-ver-color=4fdc8f
+ring-wrong-color=f76a6a
+ring-clear-color=f7c94f
+
+# Key highlight
+key-hl-color=7c6af7
+bs-hl-color=f76a8a
+
+# Text
+text-color=e8e8ecff
+text-ver-color=4fdc8fff
+text-wrong-color=f76a6aff
+text-clear-color=f7c94fff
+
+# Inside circle
+inside-color=0e0e1888
+inside-ver-color=0e0e1888
+inside-wrong-color=0e0e1888
+inside-clear-color=0e0e1888
+
+# Separator
+separator-color=00000000
+
+# Layout
+indicator-radius=80
+indicator-thickness=6
+line-uses-ring
+clock
+timestr=%I:%M %p
+datestr=%A, %B %d

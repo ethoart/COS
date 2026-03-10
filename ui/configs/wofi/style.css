@@ -1,0 +1,54 @@
+/* C OS App Launcher */
+window {
+  background: rgba(14, 14, 18, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#input {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #e8e8ec;
+  padding: 12px 16px;
+  margin: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+#input:focus {
+  border-color: #7c6af7;
+  background: rgba(124, 106, 247, 0.08);
+}
+
+#scroll {
+  margin: 0 8px 8px 8px;
+}
+
+#inner-box {
+  background: transparent;
+}
+
+.entry {
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin: 2px 4px;
+  color: #a0a0c0;
+  transition: all 0.15s;
+}
+
+.entry:selected {
+  background: rgba(124, 106, 247, 0.2);
+  color: #e8e8ec;
+}
+
+.entry:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #e8e8ec;
+}
+
+.text {
+  font-size: 13px;
+  margin-left: 8px;
+}
